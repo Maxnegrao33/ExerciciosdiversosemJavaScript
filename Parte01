@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta author="Maciel Oliveira" />
+    <title>Exercício 02</title>
+  </head>
+  <body>
+    <style></style>
+
+    <!-- 1 - Chamando o app.js na página web -->
+    <script src="./app.js">
+       /*
+           2 - Exibindo uma frase no Console
+       */
+       console.log("Grandes poderes, trazem grandes responsabilidades.");
+
+       /*
+            3 - Declarando uma variável "Const" para seleção do ator
+       */
+      const tom = "Tom";
+      const firstTom = "Hanks";
+      const secondTom = "Cruise";
+
+      const myFavoriteTom = tom + " " + firstTom;
+
+      console.log(myFavoriteTom);
+
+        /*
+            4 - Declarando uma const que seleciona as iniciais de JavaScript
+        */
+
+      const programmingLanguage = "JavaScript";
+      const js = programmingLanguage[0] + programmingLanguage[4]
+
+      console.log(js);
+
+        /*
+           5 - Armazenando iniciais em uma const
+        */
+      const mozilla = "Mozilla Developer Network";
+      const mdn = mozilla[0] + mozilla[8] + mozilla[18];
+
+      console.log(mdn);
+
+
+        /*
+          6 -  Exibindo no console a quantidade de caracteres de uma palavra
+        */
+      console.log(programmingLanguage.length);
+
+        /*
+          7 - Exibindo uma última letra de uma String
+        */
+      let randonWorld = "Araponga";
+        console.log(randonWorld[randonWorld.length - 1]);
+
+
+        /*
+        8 - Exibir a String em letras minusculas
+        */
+
+      const summerMensage = "O VERÃO CHEGA NESTE FINAL DE SEMANA";
+        console.log(summerMessage.toLowerCase());
+
+
+         /*
+        9 - Exibir a String em letras maiúsculas
+        */
+
+      const winterMessage = "o inverno está chegando";
+        console.log(winterMessage.toUpperCase());
+
+         /*
+        10 - Exibir apenas o caactere "v" String winterMessage
+        Retorna apenas o caractere indicado e ignora os demais
+        */
+        console.log(winterMessage.indexOf('v)'));
+
+         /*
+        11 - Exibir a última ocorrência do aractere "n" da winterMessage
+        */
+        console.log(winterMessage.lastIndexOf('n'));
+
+        /*
+        12 - Exibir uma parte da String
+        */
+        const harryPotterAuthor = "J.K. Rowling";
+          console.log(harryPotterAuthor.slice(0, 4));
+
+         /*
+        12 - Atribuição e Substituições
+        */
+        const bestMovie = "E o Oscar de melhor filme vai para: 'La La Land'";
+        const realBestMovie = bestMovie.replace('La La Land', 'Moonlight');
+          console.log(realBestMovie);
+
+         /*
+        13 - Armazenando o resto de uma divisão (10/3)
+        */
+        const reminder = 10 % 3;
+          console.log(reminder);
+
+         /*
+        14 - Incremento
+        */
+        let episodes = 6;
+          episodes++
+            console.log(episodes);
+
+         /*
+        15 - Decremento
+        */
+
+          episodes--
+            console.log(episodes);
+
+         /*
+        16 - Utilizando o peradar addition assignment
+        */
+        episodes += 4;
+          console.log(episodes);
+
+         /*
+        17 - Armazanando String com número de episódios
+        */
+        const allEpisodes = "O nº de episódios é: " + episodes;
+          console.log(allEpisodes)
+
+         /*
+        15 - Usando caractere dentro da Strings
+        */
+        const bookMessage = '\'O Conto de Aia\' é um dos livros mais vendidos da década';
+          console.log(bookMessage);
+
+         /*
+        16 - Letras iniciais maiúsculas
+        */
+        const name = 'walter white';
+          let newName = name[0].toUpperCase() + name.slice(1, 6) + '' + name[7].toUpperCase + name.slice(8, 12);
+            console.log(newName);
+
+         /*
+        17 - Atribuindo template String
+        */
+
+        newName = `${name[0].toUpperCase()}${name.slice(1, 6) $name[7].toUpperCase()}${name.slice(8)}`;
+          console.log(newName);
+    </script>
+  </body>
+</html>
